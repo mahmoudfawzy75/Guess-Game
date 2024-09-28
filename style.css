@@ -67,18 +67,18 @@ body {
         outline-color: #ccc;
     }
     &.yes-in-place{
-        background-color: #f89e13;
-        border: #f89e13;
-        color: white;
-    }
-    &.not-in-place{
         background-color: #18ba89;
         border: #18ba89;
         color: white;
     }
+    &.not-in-place{
+        background-color: #f89e13;
+        border: #f89e13;
+        color: white;
+    }
     &.no{
-        background-color: #27303f;
-        border: #27303f;
+        background-color: #f34343;
+        border: #f34343;
         color: white;
     }
 }
@@ -152,15 +152,16 @@ body {
 }
 
 .key-colors .key-color .key.yes-in-place {
-    background-color: #f89e13;
+    background-color: #18ba89
+    ;
 }
 
 .key-colors .key-color .key.not-in-place {
-    background-color: #18ba89;
+    background-color: #f89e13;
 }
 
 .key-colors .key-color .key.no {
-    background-color: #27303f;
+    background-color: #f34343;
 }
 
 .key-colors .key-color .key-text {
