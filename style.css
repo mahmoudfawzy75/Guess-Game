@@ -162,3 +162,35 @@ footer{
     color: white;
 
 }
+/* التصميم الأساسي */
+.guess-game {
+    display: flex;
+    justify-content: center; /* ضع المحتوى في المنتصف أفقياً */
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .guess-game {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .key-colors, .game-area {
+        width: 50%; 
+    }
+
+    .key-colors {
+        order: 1;
+    }
+
+    .game-area {
+        order: 2; 
+    }
+}
+h1 {
+    width: 100%; 
+    text-align: center; 
+    margin: 0 auto; 
+}
